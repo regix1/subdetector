@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/subdetector/__init__.py
+src/subdetector/detector.py
+src/subdetector.egg-info/PKG-INFO
+src/subdetector.egg-info/SOURCES.txt
+src/subdetector.egg-info/dependency_links.txt
+src/subdetector.egg-info/entry_points.txt
+src/subdetector.egg-info/requires.txt
+src/subdetector.egg-info/top_level.txt
