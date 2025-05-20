@@ -292,9 +292,11 @@ def main():
     print("\nResults:")
     for track in languages:
         if is_media_file(file_path):
+            # Fixed output formatting here
             print(f"Stream #{track['stream_index']} ({track['format']}): " +
                   f"{track['language'] or 'Unknown'} [{track['source']}]")
         else:
+            # Fixed output formatting here as well
             print(f"Subtitle file ({track['format']}): " +
                   f"{track['language'] or 'Unknown'} [{track['source']}]")
 
